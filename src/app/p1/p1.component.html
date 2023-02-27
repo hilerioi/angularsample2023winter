@@ -1,0 +1,12 @@
+<div *ngFor="let result of results; let i = index">
+
+<p>
+    {{i}}.List Name: {{result.name}}
+    <br>
+    {{i}}.List Description: {{result.description}}
+</p>
+
+</div>
+<a routerLink="/p2" routerLinkActive="active">P2</a>
+<br>
+<a routerLink="/p3" routerLinkActive="active">P3</a>
